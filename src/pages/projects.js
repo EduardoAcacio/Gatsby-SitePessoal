@@ -42,22 +42,22 @@ const projectCards = [
 const Projects = () => (
   <Layout>
     <section className="section is-size-5-desktop is-size-6-touch">
-      <div className="container">
-        <h1 className="title has-text-light has-text-centered">Projetos</h1>
+      <h1 className="title has-text-light has-text-centered">Projetos</h1>
+        <div className="container">
         <hr />
-        <p className="content has-text-centered">
+        <p className="has-text-centered">
           Alguns dos meus projetos de destaque, veja mais no meu{' '}
           <a href="https://github.com/eduardoacacio">GitHub</a>.
         </p>
-        <div className="columns is-centered">
-          <div className="column is-half">
+        <div className="columns">
+          <div className="column is-half is-offset-one-quarter">
             {projectCards.map(projectCard => (
               <Card key={projectCard.title} {...projectCard} />
             ))}
           </div>
         </div>
         <p className="has-text-centered">
-          Veja minha <Link to="/stack">stack de ferramentas</Link>.
+          Veja meu <Link to="/curriculo">curriculo</Link>.
         </p>
       </div>
     </section>

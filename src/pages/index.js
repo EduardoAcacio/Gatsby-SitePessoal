@@ -7,7 +7,7 @@ import profileImage from '../assets/perfil.jpg'
 const socialMedias = [
   { icon: 'fa-github', link: 'https://github.com/eduardoacacio' },
   { icon: 'fa-twitter', link: 'https://twitter.com/' },
-  { icon: 'fa-medium', link: 'https://medium.com/' },
+  { icon: 'fa-medium', link: 'https://medium.com/eduardoacacio' },
   { icon: 'fa-linkedin', link: 'https://linkedin.com/in/acacioeduardo' },
 ];
 
@@ -22,7 +22,7 @@ const IndexPage = () => (
         Desenvolvedor Web
       </h2>
     </div>
-    <div className="has-text-centered">
+    <div className="has-text-centered is-mobile">
      {socialMedias.map(socialMedia => (
         <a 
            href={socialMedia.link} 
@@ -30,7 +30,7 @@ const IndexPage = () => (
            aria-label={socialMedia.icon}
         >
           <span className="icon is-large">
-            <i className={`fab fa2x ${socialMedia.icon}`} />
+            <i className={`fab fa-2x ${socialMedia.icon}`} />
           </span>
         </a>
      ))}
@@ -39,7 +39,7 @@ const IndexPage = () => (
       <div className="container content">
         <h4 className="title has-text-light">Olá, sou Eduardo Acacio{' '} <span role="img" aria-label="pc graficos e bandeira">💻 🇧🇷</span></h4>
         <p>
-          Sou desenvolvedor Web, trabalho como FullStack crirando aplicações e sistemas Web. 
+          Sou desenvolvedor Web, trabalho como FullStack criando aplicações e sistemas Web. 
           Gosto de estudar metodos ágeis, testes unitarios, JavaScript e Dotnet.
         </p>
         <p>
