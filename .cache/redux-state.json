@@ -1072,12 +1072,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-21T16:44:38.111Z",
+      "buildTime": "2018-11-21T18:24:25.663Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "985f5f2152e66c6009c05651981dda28",
+        "contentDigest": "29764c50fa94b6243486744688bb5f26",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1382,13 +1382,10 @@
     "posts-0d3": "541/path---posts-0-d-3-d29-NZuapzHg3X9TaN1iIixfv1W23E",
     "projects-9e9": "545/path---projects-9-e-9-957-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "curriculo-a6f": "197/path---curriculo-a-6-f-5ff-NZuapzHg3X9TaN1iIixfv1W23E"
+    "curriculo-a6f": "197/path---curriculo-a-6-f-5ff-NZuapzHg3X9TaN1iIixfv1W23E",
+    "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/home/eduardo/DEV/Portfolio/portfolio/Gatsby-SitePessoal/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/home/eduardo/DEV/Portfolio/portfolio/Gatsby-SitePessoal/.cache/dev-404-page.js"
-    },
     "/home/eduardo/DEV/Portfolio/portfolio/Gatsby-SitePessoal/src/pages/404.js": {
       "query": "",
       "componentPath": "/home/eduardo/DEV/Portfolio/portfolio/Gatsby-SitePessoal/src/pages/404.js"
@@ -1408,6 +1405,10 @@
     "/home/eduardo/DEV/Portfolio/portfolio/Gatsby-SitePessoal/src/pages/curriculo.js": {
       "query": "",
       "componentPath": "/home/eduardo/DEV/Portfolio/portfolio/Gatsby-SitePessoal/src/pages/curriculo.js"
+    },
+    "/home/eduardo/DEV/Portfolio/portfolio/Gatsby-SitePessoal/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/home/eduardo/DEV/Portfolio/portfolio/Gatsby-SitePessoal/.cache/dev-404-page.js"
     }
   },
   "staticQueryComponents": {
